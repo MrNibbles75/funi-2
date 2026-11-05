@@ -1,0 +1,17 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1793914517
+Database.gd::GDScript::7168957832041481143::1793914517::0::1::::<><><>0<>0<><>::
+gdre_export.log::TextFile::-1::1793914517::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::3106279996697019591::1793914517::1793914517::1::::<><><>0<>0<>2a4f20f2124852acaead5cd7776c2af5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+node_2d.tscn::PackedScene::7308774842412924789::1793914517::0::1::::<><><>0<>0<><>::uid://cura80jbwvdj0::::res://player.tscn<>uid://d4mvmuu6q34h3::::res://texture_02.svg<>uid://cvsye4pibaio6::::res://SyncPlayerRemote.gd<>uid://dm7nosj2mh0un::::res://remote_player.tscn
+player.gd::GDScript::7865818329483722310::1793914517::0::1::::PlayerLocal<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::6211772920227384895::1793914517::0::1::::<><><>0<>0<><>::uid://dkci440qty7aw::::res://player.gd<>uid://bkix8iiakaw3x::::res://icon.svg<>uid://bxh2dfos6k7b0::::res://sync_player_local.gd
+remote_player.gd::GDScript::6662531293842831909::1793914517::0::1::::PlayerRemote<>CharacterBody2D<><>0<>0<><>::
+remote_player.tscn::PackedScene::8068403545452876721::1793914517::0::1::::<><><>0<>0<><>::uid://c16m6gb3h6nnp::::res://remote_player.gd<>uid://bkix8iiakaw3x::::res://icon.svg
+SyncPlayerRemote.gd::GDScript::6285431781074022763::1793914517::0::1::::<><><>0<>0<><>::
+sync_player_local.gd::GDScript::4016859732936380219::1793914517::0::1::::<><><>0<>0<><>::
+texture_02.svg::CompressedTexture2D::9220808618800019134::1793914517::1793914517::1::::<><><>0<>0<>b066232b7e01b4786e4083baf5d3ea88<>res://.godot/imported/texture_02.svg-397a54e3c6139cafccf43d2260157922.ctex::
+::res://exports/::1793914517
+index.apple-touch-icon.png::CompressedTexture2D::4211501352218965896::1793914517::1793914517::1::::<><><>0<>0<>8a2ee5e2a412462a0b8da6c435ca4ce2<>res://.godot/imported/index.apple-touch-icon.png-65973ddaad96ecdaf3c752a8d5b693c7.ctex::
+index.icon.png::CompressedTexture2D::8651181963391611789::1793914517::1793914517::1::::<><><>0<>0<>bbb69ac21d85955f54b0c5c6f737b90b<>res://.godot/imported/index.icon.png-c4a9e96706e70b250c0b0144b6b11313.ctex::
+index.png::CompressedTexture2D::1635658409222747959::1793914517::1793914517::1::::<><><>0<>0<>66845b94fec7e798aa0e25f182b69661<>res://.godot/imported/index.png-b259ab16718bc210c505332965363aff.ctex::
