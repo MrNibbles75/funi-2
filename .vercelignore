@@ -1,0 +1,2 @@
+# Source and editor cache stay in git. The site serves the web export at the repo root.
+src/
