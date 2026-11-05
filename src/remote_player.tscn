@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dm7nosj2mh0un"]
+
+[ext_resource type="Script" uid="uid://c16m6gb3h6nnp" path="res://remote_player.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bkix8iiakaw3x" path="res://icon.svg" id="2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vxd6c"]
+
+[node name="Remote Player" type="CharacterBody2D" unique_id=219525492]
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=869600449]
+texture = ExtResource("2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1442852355]
+shape = SubResource("RectangleShape2D_vxd6c")

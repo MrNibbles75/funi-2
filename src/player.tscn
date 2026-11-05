@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cura80jbwvdj0"]
+
+[ext_resource type="Script" uid="uid://dkci440qty7aw" path="res://player.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bkix8iiakaw3x" path="res://icon.svg" id="2"]
+[ext_resource type="Script" uid="uid://bxh2dfos6k7b0" path="res://sync_player_local.gd" id="3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(128, 128)
+
+[node name="Player" type="CharacterBody2D" unique_id=1131491852]
+z_index = 4
+z_as_relative = false
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=103455820]
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=863354433]
+z_index = 1
+z_as_relative = false
+texture = ExtResource("2")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=890376614]
+zoom = Vector2(0.65, 0.65)
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+
+[node name="SyncPlayerLocal" type="HTTPRequest" parent="." unique_id=622916101 node_paths=PackedStringArray("player")]
+script = ExtResource("3")
+player = NodePath("..")

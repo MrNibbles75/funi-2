@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dceopovki44xl"]
+
+[ext_resource type="PackedScene" uid="uid://cura80jbwvdj0" path="res://player.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://d4mvmuu6q34h3" path="res://texture_02.svg" id="2"]
+[ext_resource type="Script" uid="uid://cvsye4pibaio6" path="res://SyncPlayerRemote.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dm7nosj2mh0un" path="res://remote_player.tscn" id="4"]
+
+[node name="Node2D" type="Node2D" unique_id=1102414366]
+
+[node name="Player" parent="." unique_id=1131491852 instance=ExtResource("1")]
+
+[node name="Label" type="Label" parent="Player" unique_id=1461290003]
+offset_left = -60.0
+offset_top = -100.0
+offset_right = 51.0
+offset_bottom = -77.0
+text = "SANTA BABY!!!"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1674123408]
+offset_left = -14920.0
+offset_top = -9628.0
+offset_right = 13417.0
+offset_bottom = 8893.0
+texture = ExtResource("2")
+stretch_mode = 1
+
+[node name="SyncPlayerRemote" type="Node" parent="." unique_id=1274401687 node_paths=PackedStringArray("player_local")]
+script = ExtResource("3")
+player_local = NodePath("../Player")
+remote_player_scene = ExtResource("4")
